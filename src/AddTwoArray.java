@@ -2,8 +2,9 @@
  * Add two array
  * int[] arr1 = {1, 2, 3};
  * int[] arr2 = {4, 5, 6, 7};
+ *  123 + 4567
  * <p>
- * res[] = {0, 4 6, 9, 0}
+ * res[] = {0, 4, 6, 9, 0}
  */
 public class AddTwoArray {
     public static void main(String[] args) {
