@@ -1,7 +1,6 @@
 package javaeight;
 
-import java.util.Arrays;
-import java.util.Optional;
+import java.util.*;
 import java.util.logging.Filter;
 import java.util.stream.Collectors;
 
@@ -24,7 +23,7 @@ public class FilterTest {
         employeeList.add(new Employee("Anuj Rana", 20));
         employeeList.add(new Employee("Amit Rawat", 23));
 
-        Arrays.asList()
+        //Arrays.asList()
         // filter list age > 20 then print names
         List<String> filteredList = employeeList.stream()
                 .filter(employee -> employee.getAge() > 20)
@@ -137,16 +136,18 @@ List<String> wordsList = new ArrayList<>();
 
     public int f(String prefix, String suffix) {
 
-        Optional< fWord =
-                wordsList.stream()
-                        .filter(word -> word.startsWith(prefix) && word.endsWith(suffix))
-                        .sorted((w1, w2) -> w1.length() > w2.length() ? -1 : 1)
-                        .findFirst();
+//        String foundWords=
+//                wordsList.stream()
+//                        .filter(word -> word.startsWith(prefix) && word.endsWith(suffix))
+//                        .sorted((w1, w2) -> w1.length() > w2.length() ? -1 : 1)
+//                        .findFirst();
+//
+//        if(foundWords.size() > 0){
+//            wordsList.indexOf(foundWords.get(0));
+//        }else{
+//            return -1;
+//        }
 
-        if(foundWords.size() > 0){
-            wordsList.indexOf(foundWords.get(0));
-        }else{
-            return -1;
-        }
+        return -1;
     }
 }
